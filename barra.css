@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    background-color: rgb(215, 221, 255);
+    height: 10px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.navbar:hover {
+    text-decoration: underline;
+    background-color: #f0feff;
+    color: rgb(255, 0, 0);
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(251, 255, 0);
+    height: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.footer:hover {
+    text-decoration: underline;
+    background-color: #00d9ff;
+    color: rgb(255, 0, 0);
+}

@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+}
+
+.container1-flex-direction-row {
+    display: flex;
+    flex-direction: row;
+
+    background-color: #f9eac3;
+    padding: 50px;
+    height: 40px;
+}
+.container2-flex-direction-row {
+    display: flex;
+    flex-direction: row-reverse;
+
+    background-color: #f9cfc3;
+    padding: 50px;
+    height: 40px;
+}
+.container3-flex-direction-column {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #c3f9d8;
+    padding: 50px;
+    height: 40px;
+}
+.container4-flex-direction-column {
+    display: flex;
+    flex-direction: column-reverse;
+
+    background-color: #f9c3e9;
+    padding: 50px;
+    height: 40px;
+}
+
+.container5-justify-content-row {
+    display: flex;
+    justify-content: flex-start;
+
+    background-color: #b1fd00;
+    padding: 50px;
+    height: 40px;
+}
+.container6-justify-content-row {
+    display: flex;
+    justify-content: flex-end;
+
+    background-color: #ff5e00;
+    padding: 50px;
+    height: 40px;
+}
+.container7-justify-content-row {
+    display: flex;
+    justify-content: center;
+
+    background-color: #00ffff;
+    padding: 50px;
+    height: 40px;
+}
+.container8-justify-content-row {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #0077ff;
+    padding: 50px;
+    height: 40px;
+}
+.container9-justify-content-row {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #fbff00;
+    padding: 50px;
+    height: 40px;
+}
+
+.container10-align-items-column {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    background-color: #f9c3e1;
+    padding: 50px;
+    height: 160px;
+}
+.container11-align-items-column {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    background-color: #c3f9f4;
+    padding: 50px;
+    height: 160px;
+}
+.container12-align-items-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f9efc3;
+    padding: 50px;
+    height: 160px;
+}
+.container13-align-items-column {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+    background-color: #cfc3f9;
+    /*padding: 50px;*/
+    height: 160px;
+}
+.container14-align-items-column {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+    background-color: #fcacac;
+    padding: 50px;
+    height: 160px;
+}
+
+.container15-flex-wrap-row {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+
+    background-color: #978676;
+    padding: 50px;
+    height: 80px;
+}
+.container16-flex-wrap-row {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    background-color: #467772;
+    padding: 50px;
+    height: 80px;
+}
+.container17-flex-wrap-row {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap-reverse;
+
+    background-color: #5d8359;
+    padding: 50px;
+    height: 80px;
+}
+
+.container18-align-content-row {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+    background-color: #f30889;
+    padding: 70px;
+    height: 70px;
+}
+.container19-align-content-row {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: flex-end;
+
+    background-color: #ff8800;
+    padding: 70px;
+    height: 70px;
+}
+.container20-align-content-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+
+    background-color: #b700fff1;
+    padding: 70px;
+    height: 70px;
+}
+/*no caso estamos falando de linhas, caso seja COLUMN aí ficará com um espaço entre as colunas*/
+.container21-align-content-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+    background-color: #00d9ff;
+    padding: 70px;
+    height: 70px;
+}
+.container22-align-content-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+
+    background-color: #d400ff;
+    padding: 70px;
+    height: 70px;
+}
+
+.container23-gap-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    gap: 30px;
+
+    background-color: #9b895c;
+    padding: 70px;
+    height: 90px;
+}
+.container24-gap-column {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    background-color: #4fa79e;
+    padding: 70px;
+    height: auto;
+}
+.container25-rowgap {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    row-gap: 90px;
+
+    background-color: #813a3a;
+    padding: 70px;
+    height: 150px;
+}
+.container26-columngap {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    column-gap: 90px;
+
+    background-color: #3f6b36;
+    padding: 70px;
+    height: 150px;
+}
+.container27 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 10px;
+    column-gap: 30px;
+
+    background-color: #715a77;
+    padding: 70px;
+    height: 150px;
+}
+
+
+
+
+
+.bloco-1{
+    background-color: #c6d8f0;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 16px;
+}
+.bloco-2{
+    background-color: #d8bfd8;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 16px;
+}
+.bloco-3{
+    background-color: #ff9999;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 16px;
+}
+.bloco-4{
+    background-color: #ffcf99;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 16px;
+}
+.bloco-5{
+    background-color: #999bff;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 16px;
+}
+
+
+/*está sem altura e font-size diferentes - USADO container13-align-items-column*/
+.bloco-1-1{
+    background-color: #c6d8f0;
+    width: 50px;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 16px;
+}
+.bloco-2-2{
+    background-color: #d8bfd8;
+    width: 50px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 16px;
+}
+.bloco-3-3{
+    background-color: #ff9999;
+    width: 50px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 16px;
+}
+.bloco-4-4{
+    background-color: #ffcf99;
+    width: 50px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 16px;
+}
+.bloco-5-5{
+    background-color: #999bff;
+    width: 50px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 16px;
+}
