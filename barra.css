@@ -9,13 +9,13 @@
 
 .navbar:hover {
     text-decoration: underline;
-    background-color: #f0feff;
+    background-color: #c7fafd;
     color: rgb(255, 0, 0);
 }
 
 .footer {
     display: flex;
-    background-color: rgb(251, 255, 0);
+    background-color: rgb(192, 201, 252);
     height: 10px;
     padding: 10px;
     cursor: pointer;
@@ -24,6 +24,6 @@
 
 .footer:hover {
     text-decoration: underline;
-    background-color: #00d9ff;
+    background-color: #93faff;
     color: rgb(255, 0, 0);
 }
